@@ -36,9 +36,11 @@ On the first run, you need to create a dedicated directory inside HDFS so the sp
 Bash
 docker exec -it namenode hdfs dfs -mkdir -p /spark-logs
 docker compose up -d --force-recreate spark-history-server
+```
+
 Web UIs
 Once all containers are up and running, you can monitor your cluster via the following links in your browser:
-```
+
 
 Hadoop NameNode: http://localhost:9870
 
