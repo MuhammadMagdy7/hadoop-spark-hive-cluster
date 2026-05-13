@@ -1,0 +1,36 @@
+# ----------------------------------------------------------------------
+# Big Data Cluster .gitignore
+# ----------------------------------------------------------------------
+
+# Ignore downloaded JAR files to keep the repository lightweight
+lib/*.jar
+
+# Ignore local data and log directories (if you ever map them locally)
+data/
+logs/
+spark-logs/
+warehouse/
+
+# Ignore environment variables files (for security)
+.env
+*.env
+
+# ----------------------------------------------------------------------
+# OS & Editor generated files
+# ----------------------------------------------------------------------
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac
+.DS_Store
+
+# IDEs (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
